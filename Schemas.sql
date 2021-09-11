@@ -14,7 +14,6 @@ CREATE TABLE teams(
 	leagueid varchar,
 	franchid varchar,
 	games int,
-	homegames int,
 	wins int,
 	losses int
 )
