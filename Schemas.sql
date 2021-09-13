@@ -23,12 +23,13 @@ CREATE TABLE teams(
 CREATE TABLE pitcher (
  	playerid VARCHAR NOT NULL,
 	yearid VARCHAR NOT NULL,
+	stint int,
 	teamid VARCHAR,
 	leagueid VARCHAR,
 	wins Int,
 	losses Int,
 	games Int,
 	ipouts Int,
-	primary key (playerid, yearid)
+	primary key (playerid, yearid, stint)
 )
  
